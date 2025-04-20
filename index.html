@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נווה עולם - אולם אירועים</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">נווה עולם</div>
+            <ul>
+                <li><a href="#about">אודות</a></li>
+                <li><a href="#gallery">גלריה</a></li>
+                <li><a href="#services">שירותים</a></li>
+                <li><a href="#reviews">ביקורות</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 class="animate-pop-in">נווה עולם</h1>
+            <p class="animate-slide-up">המקום המושלם לאירוע שלכם</p>
+            <a href="#contact" class="cta-button animate-pulse">קבלו הצעת מחיר</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>אודותינו</h2>
+            <p>ברוכים הבאים לנווה עולם, אולם אירועים יוקרתי המשלב קלאסיקה ומודרניות. אנו מציעים חוויה בלתי נשכחת עם שירות אישי, קולינריה משובחת ועיצוב עוצר נשימה, המתאים לכל סוגי האירועים.</p>
+            <!-- Add more content here -->
+        </section>
+
+        <section id="gallery">
+            <h2>גלריה</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1559588518-3b4a6a4a7ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="אירוע חברה באולם"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="עיצוב חופה ופרחים"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="רחבת ריקודים מוארת"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="תאורה וחופה באירוע"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="אולם אירועים אלגנטי מבפנים"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70" alt="פרטי עיצוב שולחן באירוע"></div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>השירותים שלנו</h2>
+            <ul>
+                <li><i class="fas fa-ring"></i> חתונות קסומות</li>
+                <li><i class="fas fa-glass-cheers"></i> ברי מצווה / בת מצווה בלתי נשכחים</li>
+                <li><i class="fas fa-briefcase"></i> אירועים עסקיים יוקרתיים</li>
+                <li><i class="fas fa-birthday-cake"></i> ימי הולדת ואירועים פרטיים</li>
+                <li><i class="fas fa-utensils"></i> קייטרינג שף ברמה גבוהה</li>
+                <li><i class="fas fa-music"></i> עיצוב ותאורה מותאמים אישית</li>
+            </ul>
+        </section>
+
+        <section id="reviews">
+            <h2>מה לקוחות מספרים</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <p>"היה אירוע מושלם! הצוות היה קשוב, האוכל מדהים והאווירה קסומה. חצר המלכה עלתה על כל הציפיות שלנו."</p>
+                    <div class="reviewer">- משפחת כהן</div>
+                </div>
+                <div class="review-card">
+                    <p>"חגגנו בת מצווה לבתנו והכל היה מתוקתק להפליא. העיצוב היה יפהפה והשירות יוצא מן הכלל. מומלץ בחום!"</p>
+                    <div class="reviewer">- דנה ושרון לוי</div>
+                </div>
+                <div class="review-card">
+                    <p>"ערכנו אירוע חברה בחצר המלכה. המקום מרשים, הצוות מקצועי והפידבקים מהעובדים היו מעולים. נחזור שוב!"</p>
+                    <div class="reviewer">- חברת הייטק מובילה</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>צור קשר</h2>
+            <form>
+                <label for="name">שם:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">אימייל:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">טלפון:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">הודעה:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">שלח</button>
+            </form>
+            <div class="contact-details">
+                <p>טלפון: 05X-XXXXXXX</p>
+                <p>כתובת: רחוב הדוגמא 1, עיר הדוגמא</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 חצר המלכה. כל הזכויות שמורות.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
